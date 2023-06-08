@@ -142,8 +142,8 @@ function App() {
     const fileName = `${new Date().getTime()}`;
 
     AWS.config.update({
-      accessKeyId: 'AKIAUFEYBODQN4QJJYWJ',
-      secretAccessKey: 'B7EwYYHxkM+qlfsPKDtH1YCaCd4y/GhjAGJXkMQa'
+      accessKeyId: 'your Key',
+      secretAccessKey: 'secret access key'
     })
 
     const myBucket = new AWS.S3({
