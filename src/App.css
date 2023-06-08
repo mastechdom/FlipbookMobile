@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+
+.demoPage {
+  width: 400px;
+  height: 600px;
+  box-shadow: 20px 20px 50px 50px grey;
+  position: absolute;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AudioPlayer {
+  position: fixed;
+  width: 200px;
+  height: 30px;
+  top: 5px;
+  left: 90px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Image {
+  width: 400px;
+  height: 600px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  position: fixed;
+  top: 460px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.column-2 {
+  height: 40px;
+  display: flex;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonsSandD {
+  width: 100%;
+}
+
+.column-3 {
+  width: 50%;
+  height: 40px;
+  text-align: center;
+}
+
+.column-4 {
+  width: 50%;
+  height: 40px;
+
+}
+
+.column-5 {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  text-align: end;
+}
+.submitText{
+  width: 70%;
+}
+.AudiSubmitImage{
+  width: 10%;
+  height: 30px;
 }
