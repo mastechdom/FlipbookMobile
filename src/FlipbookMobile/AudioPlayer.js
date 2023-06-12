@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactPlayer from 'react-player'
 import AudioVoice from '../Audios/A33.mp3'
-import '../App.css'
+import './MobileFlipbook.css'
 
 const Audio = () => {
 

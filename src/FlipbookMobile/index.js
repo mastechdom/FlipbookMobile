@@ -1,5 +1,5 @@
 import HTMLFlipBook from 'react-pageflip';
-import '../App.css';
+import './MobileFlipbook.css';
 import img1 from '../Images/1.jpg';
 import img2 from '../Images/2.jpg';
 import img3 from '../Images/3.jpg';

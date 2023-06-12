@@ -123,8 +123,6 @@ function App() {
       setRecord(false);
       setShowIcons(true);
     }
-    else {
-    }
   }
 
   function Deletedata(id) {
